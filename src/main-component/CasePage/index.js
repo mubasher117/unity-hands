@@ -12,7 +12,7 @@ const CausePage =() => {
     return(
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'Our Causes'} pagesub={'Causes'}/> 
+            {/* <PageTitle pageTitle={''} pagesub={''}/>  */}
             <Causes/>
             <CounterSection counter={'v2'}/>
             <Newsletter NewsClass={'s2'}/>

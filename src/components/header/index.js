@@ -19,7 +19,7 @@ const Header = (props) => {
 
     return(	
 	<div className={`middle-header ${props.ms2}`}>
-        <HeaderTopbar/>
+        {/* <HeaderTopbar/> */}
         <div className="header-style-3">
             <div className="container">
                 <div className="header-content">
