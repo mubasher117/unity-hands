@@ -58,6 +58,25 @@ export const Work = ({
             </Link>
           </h3>
           <p>{description} </p>
+
+          <div className="btns">
+            <div>
+              <Link
+                onClick={ClickHandler}
+                to="/case-single"
+                state={{
+                  title,
+                  description,
+                  image,
+                  descriptionFull,
+                  images,
+                }}
+                className="theme-btn"
+              >
+                See More
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

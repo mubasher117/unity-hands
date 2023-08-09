@@ -13,7 +13,7 @@ import BlogSection from '../../components/BlogSection'
 import Newsletter from '../../components/Newsletter'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import abimg from '../../images/Volunteers.jpg'
+import abimg from '../../images/ongoing-projects.jpeg'
 import hero1 from '../../images/slider/slide-1.jpg'
 
 

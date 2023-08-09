@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero2 from '../../images/slider/slide-3.jpg'
+import eventImg from '../../images/event.jpeg'
 import hero3 from '../../images/slider/slide-4.jpg'
 
 import './style.css'
@@ -29,58 +29,22 @@ class Hero extends Component {
             <section className="hero hero-slider hero-style-1">
                 <Slider {...settings}>
                     <div className="slide">
-                        <div className="slide-inner" style={{ backgroundImage: `url(${this.props.Hero})` }}>
+                        <div className="slide-inner" 
+                        // style={{ backgroundImage: `url(${eventImg})` }}
+                        >
                             <div className="container">
                                 <div className="col col-lg-6 slide-caption">
                                     <div className="slide-title">
-                                        <h2>Let’s be Kind for <span>Children</span></h2>
+                                        <h2>Let’s be Kind for <span>Every Human Being</span></h2>
                                     </div>
-                                    <div className="slide-subtitle">
+                                    {/* <div className="slide-subtitle">
                                         <p>High Quality Charity Theme in Envato Market.</p>
                                         <p>You Can Satisfied Yourself By Helping.</p>
-                                    </div>
-                                    <div className="btns">
+                                    </div> */}
+                                    {/* <div className="btns">
                                         <Link to="/donate" className="theme-btn">Donate Now</Link>
                                         <Link to="/about" className="theme-btn-s2">Know More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="slide">
-                        <div className="slide-inner" style={{ backgroundImage: `url(${hero2})` }}>
-                             <div className="container">
-                                <div className="col col-lg-6 slide-caption">
-                                    <div className="slide-title">
-                                        <h2>Let’s be Kind for <span>Children</span></h2>
-                                    </div>
-                                    <div className="slide-subtitle">
-                                        <p>High Quality Charity Theme in Envato Market.</p>
-                                        <p>You Can Satisfied Yourself By Helping.</p>
-                                    </div>
-                                    <div className="btns">
-                                        <Link to="/donate" className="theme-btn">Donate Now</Link>
-                                        <Link to="/about" className="theme-btn-s2">Know More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="slide">
-                        <div className="slide-inner" style={{ backgroundImage: `url(${hero3})` }}>
-                            <div className="container">
-                                <div className="col col-lg-6 slide-caption">
-                                    <div className="slide-title">
-                                        <h2>Let’s be Kind for <span>Children</span></h2>
-                                    </div>
-                                    <div className="slide-subtitle">
-                                        <p>High Quality Charity Theme in Envato Market.</p>
-                                        <p>You Can Satisfied Yourself By Helping.</p>
-                                    </div>
-                                    <div className="btns">
-                                        <Link to="/donate" className="theme-btn">Donate Now</Link>
-                                        <Link to="/about" className="theme-btn-s2">Know More</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

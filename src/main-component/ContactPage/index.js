@@ -13,7 +13,7 @@ const ContactPage =() => {
             <Navbar3/>
             <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
             <Contactpage/>
-            <Newsletter/>
+            {/* <Newsletter/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

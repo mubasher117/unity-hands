@@ -15,7 +15,7 @@ const About = (props) => {
           <div className="col-lg-6 col-sm-12 col-12">
             <div className="about-img">
               <img src={props.AbImg} alt="" />
-              <VideoModal />
+              {/* <VideoModal /> */}
             </div>
           </div>
           <div className="col-lg-6 col-sm-12 col-12">

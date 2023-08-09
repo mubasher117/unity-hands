@@ -4,7 +4,7 @@ import './style.css'
 
 const PageTitle = (props) => {
     return(
-        <div className="tp-breadcumb-area">
+        <div className="tp-breadcumb-area" style={{background: "rgb(16 16 16)"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
