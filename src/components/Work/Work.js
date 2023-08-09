@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import causesimg from "../../images/cause/img-1.png";
 
-export const Work = ({ title, description }) => {
+export const Work = ({ title, description, image }) => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -11,7 +11,7 @@ export const Work = ({ title, description }) => {
       <div className="cause-item">
         <div className="cause-top">
           <div className="cause-img">
-            <img src={causesimg} alt="" />
+            <img src={image} alt="" />
             {/* <div className="case-btn">
                 <Link onClick={ClickHandler} to="/donate" className="theme-btn">
                   Donate Now
