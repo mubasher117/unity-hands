@@ -16,13 +16,12 @@ import MentalHealthImg5 from "../images/mental-health-5.jpeg";
 import FoodBankImg from "../images/food-bank.jpeg";
 import FoodBankImg1 from "../images/food-bank-1.jpeg";
 import FoodBankImg2 from "../images/food-bank-2.jpeg";
-import FoodBankImg3 from "../images/food-bank-2.jpeg";
-import FoodBankImg4 from "../images/food-bank-2.jpeg";
-import FoodBankImg5 from "../images/food-bank-2.jpeg";
-import FoodBankImg6 from "../images/food-bank-2.jpeg";
-import FoodBankImg7 from "../images/food-bank-2.jpeg";
-import FoodBankImg8 from "../images/food-bank-2.jpeg";
-
+import FoodBankImg3 from "../images/food-bank-3.jpeg";
+import FoodBankImg4 from "../images/food-bank-4.jpeg";
+import FoodBankImg5 from "../images/food-bank-5.jpeg";
+import FoodBankImg6 from "../images/food-bank-6.jpeg";
+import FoodBankImg7 from "../images/food-bank-7.jpeg";
+import FoodBankImg8 from "../images/food-bank-8.jpeg";
 
 export const works = [
   {
@@ -97,6 +96,6 @@ export const works = [
       FoodBankImg6,
       FoodBankImg7,
       FoodBankImg8,
-    ]
+    ],
   },
 ];
