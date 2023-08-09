@@ -14,8 +14,8 @@ const CausePage =() => {
             <Navbar3/>
             {/* <PageTitle pageTitle={''} pagesub={''}/>  */}
             <Causes/>
-            <CounterSection counter={'v2'}/>
-            <Newsletter NewsClass={'s2'}/>
+            {/* <CounterSection counter={'v2'}/> */}
+            {/* <Newsletter NewsClass={'s2'}/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

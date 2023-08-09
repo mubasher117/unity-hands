@@ -21,7 +21,13 @@ const EventSection = (props) => {
         </div>
         <div className="row">
           <div className="col col-xs-12">
-            <div className="event-grids clearfix">
+            <div
+              className="event-grids clearfix"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               {events.map((event) => (
                 <div className="grid">
                   <div className="img-holder">
@@ -31,14 +37,14 @@ const EventSection = (props) => {
                     <ul className="entry-meta">
                       <li>
                         {/* <Link onClick={ClickHandler} to="/event-details"> */}
-                          <i className="ti-calendar"></i> {event.date}
+                        <i className="ti-calendar"></i> {event.date}
                         {/* </Link> */}
                       </li>
                       {/* <li><Link onClick={ClickHandler} to="/event-details"><i className="ti-folder"></i> Education</Link></li> */}
                     </ul>
                     <h3>
                       {/* <Link onClick={ClickHandler} to="/event-details"> */}
-                        {event.title}
+                      {event.title}
                       {/* </Link> */}
                     </h3>
                   </div>

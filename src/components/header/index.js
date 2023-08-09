@@ -46,6 +46,7 @@ const Header = (props) => {
                                         <li><Link onClick={ClickHandler} to="/case-single" title="">Causes Single</Link></li>
                                     </ul> */}
                                 </li>
+                                <li><Link onClick={ClickHandler} to="/event" title="">Event</Link></li>
                                 {/* <li><Link onClick={ClickHandler} to="/event" title="">Event</Link>
                                     <ul>
                                         <li><Link onClick={ClickHandler} to="/event" title="">Event</Link></li>
