@@ -50,23 +50,23 @@ const menus = [
             }
         ]
     },
-    // {
-    // id: 4,
-    //     title: 'Event',
-    //     link: '/event',
-    //     submenu: [
-    //         {
-    //             id: 41,
-    //             title: 'Event',
-    //             link: '/event'
-    //         },
-    //         {
-    //             id: 42,
-    //             title: 'Event Single',
-    //             link: '/event-details'
-    //         }
-    //     ]
-    // },
+    {
+    id: 4,
+        title: 'Event',
+        link: '/event',
+        submenu: [
+            {
+                id: 41,
+                title: 'Event',
+                link: '/event'
+            },
+            {
+                id: 42,
+                title: 'Event Single',
+                link: '/event-details'
+            }
+        ]
+    },
     // {
     //     id: 7,
     //     title: 'Pages',

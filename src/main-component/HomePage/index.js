@@ -29,7 +29,7 @@ const HomePage =() => {
             {/* <CounterSection/> */}
             <Gallery/>
             {/* <TeamSection/> */}
-            {/* <EventSection/> */}
+            <EventSection/>
             {/* <CtaSection/> */}
             {/* <BlogSection/> */}
             {/* <Newsletter/> */}

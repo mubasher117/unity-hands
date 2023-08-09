@@ -11,10 +11,10 @@ const EventPage =() => {
     return(
         <Fragment>
             <Navbar3/>
-            <PageTitle pageTitle={'Our Event'} pagesub={'Event'}/> 
+            <PageTitle pageTitle={'Events'} pagesub={'Event'}/> 
             <EventSection/>
-            <CounterSection counter={'v2'}/>
-            <Newsletter/>
+            {/* <CounterSection counter={'v2'}/> */}
+            {/* <Newsletter/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

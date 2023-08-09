@@ -56,13 +56,17 @@ const Header3 = (props) => {
                                         <li><Link onClick={ClickHandler} to="/case-single" title="">Causes Single</Link></li>
                                     </ul> */}
                     </li>
-                    {/* <li><Link onClick={ClickHandler} to="/event" title="">Event</Link>
-                                    <ul>
+                    <li>
+                      <Link onClick={ClickHandler} to="/event" title="">
+                        Event
+                      </Link>
+                      {/*              <ul>
                                         <li><Link onClick={ClickHandler} to="/event" title="">Event</Link></li>
                                         <li><Link onClick={ClickHandler} to="/event-details" title="">Event Single</Link></li>
                                     </ul>
-                                </li>
-                                <li><Link onClick={ClickHandler} to="/home" title="">Pages</Link>
+                                  */}
+                    </li>
+                    {/* <li><Link onClick={ClickHandler} to="/home" title="">Pages</Link>
                                     <ul>
                                         <li><Link onClick={ClickHandler} to="/gallery" title="">Gallery</Link></li>
                                         <li><Link onClick={ClickHandler} to="/donate" title="">Donate</Link></li>
@@ -89,7 +93,7 @@ const Header3 = (props) => {
                                             </ul>
                                         </li>
                                     </ul>
-                                </li> */}
+                                </li>  */}
                     <li>
                       <Link onClick={ClickHandler} to="/contact" title="">
                         Contact
