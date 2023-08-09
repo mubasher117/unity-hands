@@ -4,8 +4,26 @@ import UnemployementImg2 from "../images/unemployment-2.jpeg";
 import UnemployementImg3 from "../images/unemployment-3.jpeg";
 import UnemployementImg4 from "../images/unemployment-4.jpeg";
 import EducationImg from "../images/education.jpeg";
+import EducationImg1 from "../images/education-1.jpeg";
+import EducationImg2 from "../images/education-2.jpeg";
+import EducationImg3 from "../images/education-3.jpeg";
 import MentalHealthImg from "../images/mental-health.jpeg";
+import MentalHealthImg1 from "../images/mental-health-1.jpeg";
+import MentalHealthImg2 from "../images/mental-health-2.jpeg";
+import MentalHealthImg3 from "../images/mental-health-3.jpeg";
+import MentalHealthImg4 from "../images/mental-health-4.jpeg";
+import MentalHealthImg5 from "../images/mental-health-5.jpeg";
 import FoodBankImg from "../images/food-bank.jpeg";
+import FoodBankImg1 from "../images/food-bank-1.jpeg";
+import FoodBankImg2 from "../images/food-bank-2.jpeg";
+import FoodBankImg3 from "../images/food-bank-2.jpeg";
+import FoodBankImg4 from "../images/food-bank-2.jpeg";
+import FoodBankImg5 from "../images/food-bank-2.jpeg";
+import FoodBankImg6 from "../images/food-bank-2.jpeg";
+import FoodBankImg7 from "../images/food-bank-2.jpeg";
+import FoodBankImg8 from "../images/food-bank-2.jpeg";
+
+
 export const works = [
   {
     id: 1,
@@ -33,6 +51,12 @@ export const works = [
         We firmly believe that education is a fundamental right, and lack of financial resources should not hinder anyone's learning journey. By providing financial aid, scholarships, and sponsorships through Government relevant institutions, we enable deserving students to pursue their dreams and acquire the knowledge and skills necessary to secure a brighter future.
         Furthermore, we go beyond monetary assistance by collaborating with local communities and educational institutions. We work together to establish book donation drives, educational workshops, and mentorship programs. These initiatives not only alleviate the financial burden but also create a nurturing environment where students can thrive academically and personally.`,
     image: EducationImg,
+    descriptionFull: `Our charitable organization dedicated to tackling the pressing issue of lack of education in our society. At our core, we firmly believe that education is the key to unlocking opportunities and breaking the cycle of poverty. With a team of experienced education consultants and directors, we are committed to provide guidance and support to individuals from disadvantage community on their journey towards higher education. 
+    Our personalized educational consultation empowers young adults and mature learners to return to college or university, providing them with the necessary guidance to navigate the system and access financial aid options. Over the years, we have witnessed numerous success stories, with single parents, adults, and young students completing their educational qualifications and building rewarding careers. Through scholarships and sponsorships, we ensure that financial constraints do not hinder the pursuit of knowledge. Our engagement with local partners and institutions creates a strong support network, fostering an inclusive and equitable learning environment.  We not only provide education but also ignite hope and ambition, envisioning a world where education is as a right accessible to all, regardless of their background. Join us on this noble journey and we work together to build a brighter and more equitable future for all.
+    At our Organisation, we recognize the struggle and hardship faced by individuals from disadvantage community who are unable to access to school or college and essential educational resources just because of lack of proper support and right guidance. Our mission is to bridge this gap and empower those in need with access to a quality education. Through the dedicated efforts of our compassionate team, we extend our helping hand to economically disadvantaged students, ensuring they can enroll in educational institutions without financial barriers.
+    We firmly believe that education is a fundamental right, and lack of financial resources should not hinder anyone's learning journey. By providing financial aid, scholarships, and sponsorships through Government relevant institutions, we enable deserving students to pursue their dreams and acquire the knowledge and skills necessary to secure a brighter future.
+    Furthermore, we go beyond monetary assistance by collaborating with local communities and educational institutions. We work together to establish book donation drives, educational workshops, and mentorship programs. These initiatives not only alleviate the financial burden but also create a nurturing environment where students can thrive academically and personally.`,
+    images: [EducationImg1, EducationImg2, EducationImg3],
   },
   {
     id: 3,
@@ -42,6 +66,17 @@ export const works = [
         To further our efforts, we are launching a mobile app that offers a 24/7 support feature. Users can access online chat or make mobile calls to seek guidance and support. Through the app, we aim to raise awareness about domestic abuse and connect victims with relevant authorities to ensure they receive the help they need.
         Our mission is to empower individuals to overcome domestic abuse and create a safer community. With this app, we can extend our reach and provide essential assistance to those in need, helping them to break free from violence and fear. Together, we can make a difference and support those affected by domestic abuse on their journey to a better life.`,
     image: MentalHealthImg,
+    descriptionFull: `Domestic abuse, a pervasive issue that affects individuals from all walks of life, is a serious concern within disadvantage communities. It encompasses various forms of physical, emotional, psychological, or financial abuse inflicted on one partner by another within an intimate relationship. Victims of domestic abuse often endure fear, manipulation, and isolation, making it difficult for them to seek help or escape their situations.
+    Our organisation is dedicated to addressing domestic abuse within the disadvantaged community. Both males and females can be victims, and we have experienced directors who are deeply connected with the local community. They have already made a positive impact by providing awareness and assistance to numerous individuals.
+    To further our efforts, we are launching a mobile app that offers a 24/7 support feature. Users can access online chat or make mobile calls to seek guidance and support. Through the app, we aim to raise awareness about domestic abuse and connect victims with relevant authorities to ensure they receive the help they need.
+    Our mission is to empower individuals to overcome domestic abuse and create a safer community. With this app, we can extend our reach and provide essential assistance to those in need, helping them to break free from violence and fear. Together, we can make a difference and support those affected by domestic abuse on their journey to a better life.`,
+    images: [
+      MentalHealthImg1,
+      MentalHealthImg2,
+      MentalHealthImg3,
+      MentalHealthImg4,
+      MentalHealthImg5,
+    ],
   },
   {
     id: 4,
@@ -50,5 +85,18 @@ export const works = [
         To further aid the local food banks, we are developing a smart mobile app with a unique feature. This feature will enable our app to connect with local food businesses, restaurants, takeaways, wedding halls, and grocery shops. Through this connection, our volunteers can coordinate the collection of leftover food from these establishments and deliver it to the local food banks. This initiative will help reduce food wastage while providing much-needed support to those in need.
         By combining financial aid with a tech-driven approach, we aim to make a significant impact on addressing food insecurity and supporting our community's most vulnerable members. Together, we can work towards creating a better and more equitable society.`,
     image: FoodBankImg,
+    descriptionFull: `Our organisation is dedicated to helping local food banks in their efforts to support disadvantaged communities. While many food banks are doing commendable work regularly, they often require financial assistance. Our primary goal is to provide financial support, regardless of the amount.
+    To further aid the local food banks, we are developing a smart mobile app with a unique feature. This feature will enable our app to connect with local food businesses, restaurants, takeaways, wedding halls, and grocery shops. Through this connection, our volunteers can coordinate the collection of leftover food from these establishments and deliver it to the local food banks. This initiative will help reduce food wastage while providing much-needed support to those in need.
+    By combining financial aid with a tech-driven approach, we aim to make a significant impact on addressing food insecurity and supporting our community's most vulnerable members. Together, we can work towards creating a better and more equitable society.`,
+    images: [
+      FoodBankImg1,
+      FoodBankImg2,
+      FoodBankImg3,
+      FoodBankImg4,
+      FoodBankImg5,
+      FoodBankImg6,
+      FoodBankImg7,
+      FoodBankImg8,
+    ]
   },
 ];
