@@ -37,9 +37,9 @@ export const Work = ({ title, description, image }) => {
               </li>
             </ul> */}
           <h3>
-            <Link onClick={ClickHandler} to="/case-single">
+            {/* <Link onClick={ClickHandler} to="/case-single"> */}
               {title}
-            </Link>
+            {/* </Link> */}
           </h3>
           <p>{description} </p>
         </div>
