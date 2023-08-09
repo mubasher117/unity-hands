@@ -10,10 +10,10 @@ const PageTitle = (props) => {
                     <div className="col-12">
                         <div className="tp-breadcumb-wrap">
                             <h2>{props.pageTitle}</h2>
-                            <ul>
+                            {/* <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><span>{props.pagesub}</span></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </div>

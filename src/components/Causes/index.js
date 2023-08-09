@@ -25,6 +25,8 @@ const Causes = (props) => {
               title={work.title}
               description={work.description}
               image={work.image}
+              descriptionFull={work.descriptionFull}
+              images={work.images}
             />
           ))}
         </div>

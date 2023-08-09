@@ -2,7 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import causesimg from "../../images/cause/img-1.png";
 
-export const Work = ({ title, description, image }) => {
+export const Work = ({
+  title,
+  description,
+  image,
+  descriptionFull,
+  images,
+}) => {
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
@@ -37,9 +43,19 @@ export const Work = ({ title, description, image }) => {
               </li>
             </ul> */}
           <h3>
-            {/* <Link onClick={ClickHandler} to="/case-single"> */}
+            <Link
+              onClick={ClickHandler}
+              to="/case-single"
+              state={{
+                title,
+                description,
+                image,
+                descriptionFull,
+                images,
+              }}
+            >
               {title}
-            {/* </Link> */}
+            </Link>
           </h3>
           <p>{description} </p>
         </div>

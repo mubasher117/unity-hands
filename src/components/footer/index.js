@@ -26,7 +26,7 @@ const Footer = (props) =>{
                                 <div className="logo widget-title">
                                     <img src={Logo} alt="" />
                                 </div>
-                                <p>Build and Earn with your online store with lots of cool and exclusive tp-features </p>
+                                {/* <p>Build and Earn with your online store with lots of cool and exclusive tp-features </p>
                                 <ul>
                                     <li>
                                         <div className="parallax-wrap">
@@ -64,7 +64,7 @@ const Footer = (props) =>{
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                         <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
@@ -86,17 +86,17 @@ const Footer = (props) =>{
                                 <div className="widget-title">
                                     <h3>Contact </h3>
                                 </div>
-                                <p>online store with lots of cool and exclusive tp-features</p>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi flaticon-pin"></i>28 Street, New York City, USA</li>
-                                        <li><i className="fi flaticon-call"></i>+000123456789</li>
-                                        <li><i className="fi flaticon-envelope"></i>Sadakat@gmail.com</li>
+                                        <li><i className="fi flaticon-pin"></i>689A, Stratford Road</li>
+                                        <li>Birmingham, B114DX, UK</li>
+                                        <li><i className="fi flaticon-call"></i>0121 2930 611</li>
+                                        <li><i className="fi flaticon-envelope"></i>info@unityhands4wm.co.uk</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                        {/* <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget instagram">
                                 <div className="widget-title">
                                     <h3>Instagram</h3>
@@ -110,7 +110,7 @@ const Footer = (props) =>{
                                     <li><Link onClick={ClickHandler} to="/"><img src={n6} alt="ins"/></Link></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ const Footer = (props) =>{
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright">&copy; 2021 Sadakat. All rights reserved</p>
+                            <p className="copyright">&copy; 2022 UNITY HANDS 4 WM. All rights reserved</p>
                         </div>
                     </div>
                 </div>

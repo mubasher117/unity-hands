@@ -33,20 +33,20 @@ const Header = (props) => {
                         <nav>
                             <ul>
                                 <li><Link onClick={ClickHandler}  to="/home" title="">Home</Link>
-                                    <ul>
+                                    {/* <ul>
                                         <li><Link onClick={ClickHandler}  to="/home">Home style 1</Link></li>
                                         <li><Link onClick={ClickHandler} to="/home2">Home style 2</Link></li>
                                         <li><Link onClick={ClickHandler} to="/home3">Home style 3</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li><Link onClick={ClickHandler} to="/about" title="">About</Link></li>
-                                <li><Link onClick={ClickHandler} to="/case" title="">Causes</Link>
-                                    <ul>
+                                <li><Link onClick={ClickHandler} to="/case" title="">Our Work</Link>
+                                    {/* <ul>
                                         <li><Link onClick={ClickHandler} to="/case" title="">Causes</Link></li>
                                         <li><Link onClick={ClickHandler} to="/case-single" title="">Causes Single</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li><Link onClick={ClickHandler} to="/event" title="">Event</Link>
+                                {/* <li><Link onClick={ClickHandler} to="/event" title="">Event</Link>
                                     <ul>
                                         <li><Link onClick={ClickHandler} to="/event" title="">Event</Link></li>
                                         <li><Link onClick={ClickHandler} to="/event-details" title="">Event Single</Link></li>
@@ -79,7 +79,7 @@ const Header = (props) => {
                                             </ul>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li><Link onClick={ClickHandler} to="/contact" title="">Contact</Link></li>
                             </ul>
                         </nav>
@@ -87,7 +87,7 @@ const Header = (props) => {
                     <div className="col-lg-1 col-md-6 col-sm-6 col-6">
                         <div className="contact">
                             <div className="cart-search-contact">
-                                <div className="header-search-form-wrapper">
+                                {/* <div className="header-search-form-wrapper">
                                     <button className="search-toggle-btn"><i className="fi flaticon-magnifying-glass"></i></button>
                                     <div className="header-search-form">
                                         <form onSubmit={SubmitHandler}>
@@ -97,9 +97,9 @@ const Header = (props) => {
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="mini-cart">
-                                    <button className="cart-toggle-btn"> <i className="fi flaticon-shopping-bag"></i> <span className="cart-count">02</span></button>
+                                    {/* <button className="cart-toggle-btn"> <i className="fi flaticon-shopping-bag"></i> <span className="cart-count">02</span></button> */}
                                     <div className="mini-cart-content">
                                         <div className="mini-cart-items">
                                             <div className="mini-cart-item clearfix">

@@ -1,4 +1,8 @@
 import UnemployementImg from "../images/unemployment.jpeg";
+import UnemployementImg1 from "../images/unemployment-1.jpeg";
+import UnemployementImg2 from "../images/unemployment-2.jpeg";
+import UnemployementImg3 from "../images/unemployment-3.jpeg";
+import UnemployementImg4 from "../images/unemployment-4.jpeg";
 import EducationImg from "../images/education.jpeg";
 import MentalHealthImg from "../images/mental-health.jpeg";
 import FoodBankImg from "../images/food-bank.jpeg";
@@ -10,6 +14,15 @@ export const works = [
         We are constantly innovating to better serve our community. Additionally, we are excited to introduce our proposed mobile app that leverages the power of artificial intelligence. This app will revolutionize the job-seeking process, making it easier for users to interact and find opportunities. With the app, job seekers can create profiles with the help of AI, showcasing their skills and experiences effectively. On the other hand, employers can easily advertise job openings, utilizing AI-driven matching algorithms to find the most suitable candidates.
         Our vision is to reduce unemployment rates, alleviate financial hardships, and create a brighter, more inclusive future for individuals and their families. With your generous support, we can make a lasting impact and empower countless lives. Together, let's combat unemployment and build a more prosperous society, one job opportunity at a time.`,
     image: UnemployementImg,
+    descriptionFull: `Our compassionate organization committed to empowering job seekers in their quest for suitable employment opportunities. At our core, we believe in providing a comprehensive support system to individuals facing the challenges of unemployment. Through personalized counseling, our experienced professionals help job seekers identify their strengths, interests, and potential career paths, enabling them to make informed decisions. Furthermore, our skill development workshops and resume building assistance enhance their employability and confidence.
+    We are constantly innovating to better serve our community. Additionally, we are excited to introduce our proposed mobile app that leverages the power of artificial intelligence. This app will revolutionize the job-seeking process, making it easier for users to interact and find opportunities. With the app, job seekers can create profiles with the help of AI, showcasing their skills and experiences effectively. On the other hand, employers can easily advertise job openings, utilizing AI-driven matching algorithms to find the most suitable candidates.
+    Our vision is to reduce unemployment rates, alleviate financial hardships, and create a brighter, more inclusive future for individuals and their families. With your generous support, we can make a lasting impact and empower countless lives. Together, let's combat unemployment and build a more prosperous society, one job opportunity at a time.`,
+    images: [
+      UnemployementImg1,
+      UnemployementImg2,
+      UnemployementImg3,
+      UnemployementImg4,
+    ],
   },
   {
     id: 2,
